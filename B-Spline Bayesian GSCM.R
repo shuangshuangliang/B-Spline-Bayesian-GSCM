@@ -4,7 +4,7 @@ library(MCMCpack)
 library(gsynth)
 library(splines)
 set.seed(12345) #for reproducibility of simulation
-sim.n=2
+sim.n=100
 
 
 GSCM.Mse<-rep(0,sim.n)
